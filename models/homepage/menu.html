@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<link rel="stylesheet" type="text/css" href="../../css/menu.min.css"/>
+	</head>
+	<body>
+		<div class="mui-content">
+			<div class="avatar"><img src="../../img/avatar.png"/></div>
+				<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+					<li class="mui-table-view-cell" id="introduction">
+						<a class="mui-navigate-right">
+							舒克信息
+						</a>
+					</li>
+					<li class="mui-table-view-cell" id="heart">
+						<a class="mui-navigate-right">
+							作者留言
+						</a>
+					</li>
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							设置
+						</a>
+					</li>
+				</ul>
+		</div>
+		<script src="../../js/mui.min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init({
+				keyEventBind: {
+					backbutton: false,
+					menubutton: false
+				}
+			});
+			//获得侧滑主窗口webview对象
+			var main = null;
+			mui.plusReady(function () {
+				main = plus.webview.currentWebview().opener();
+			})
+			function closeMenu () {
+				mui.fire(main,"menu:swipeleft");
+			}
+			//优化显示出来的侧滑菜单，只需监听该菜单的左滑事件，然后将其关闭即可；在菜单上右滑，不做任何操作；
+			window.addEventListener("swipeleft",closeMenu);  
+			mui.menu = closeMenu;
+			//打开introduction界面
+			document.getElementById("introduction").addEventListener('tap',function(){
+				mui.openWindow({
+					url:"../introduction/introduction.html",
+					id:"introduction"
+				})
+			});
+			document.getElementById("heart").addEventListener("tap",function(){
+				mui.openWindow({
+					url:'../heart/heart.html',
+					id:'heart'
+				})
+			});
+		</script>
+</body>
+
+</html>

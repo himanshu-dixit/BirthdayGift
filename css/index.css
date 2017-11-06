@@ -1,0 +1,315 @@
+/* Created by lsq on 2015/7/8.*/
+body {
+	background: #38657A;
+}
+.box {
+	height:100%; 
+	background:#E9E9E9; 
+	position:absolute; 
+	width:100%;
+	min-width: 320px;
+}
+/*header*/
+.header {
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	background: url(../img/headernk.fw.png);
+}
+
+/*content*/
+.content {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 44px;
+}
+.one {
+	width: 24em;
+	height:24em;
+	margin: 2em auto 0;
+	background: url(../img/one.png) center center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.two_1, .two_2, .two_3, .two_4 {
+	width: 22em;
+	height:22em;
+	overflow: hidden;
+}
+.two_1 {
+	margin: 1em auto;
+	background: url(../img/two.fw.png) center center no-repeat;
+	background-size: cover;
+}
+.two_2 {
+	background: url(../img/two2.fw.png) center center no-repeat;
+	background-size: cover;
+}
+.two_3 {
+	background: url(../img/two3.fw.png) center center no-repeat;
+	background-size: cover;
+}
+.there {
+	width: 12em;
+	height: 12em;
+	background: url(../img/there.fw.png) center center no-repeat;
+	background-size: cover;
+	margin: 5em auto;
+	overflow: hidden;
+}
+.four {
+	width: 10em;
+	height: 10em;
+	background: url(../img/four.fw.png) center center no-repeat;
+	background-size: cover;
+	margin: 1em auto;
+	overflow: hidden;
+}
+.music_img {
+	width: 100%;
+	height: 100%;
+}
+.magnetic_needle {
+	width: 15em;
+	height: 3em;
+	background: url(../img/cizhen.fw.png) center center no-repeat;
+	background-size: cover;
+	position: relative;
+	top: -5em;
+	left: 46%;
+}
+.music_info {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	top: -2em;
+}
+.music_info h2 {
+	font-family: "微软雅黑";
+	font-size: 2em;
+	height: 2em;
+	line-height: 2em;
+	color: #414448;
+}
+.music_info h3, .music_info h4 {
+	font-weight: 700;
+	color: #595A5C;
+	line-height: 1em;
+}
+/*paly_control*/
+.paly_control {
+	width: 24em;
+	overflow: hidden;
+	margin: auto;
+	text-align: center;
+}
+.model, .other {
+	width: 2em;
+	height: 1.6em;
+}
+.other {
+	width: 2em;
+	height: 1.8em;
+}
+.model {
+	background: url(../img/modelx.fw.png) center center no-repeat;
+	background-size: cover;
+	float: left;
+	margin: 2.1em 1.5em 2.1em 1em;
+}
+.other {
+	background: url(../img/other.fw.png) center center no-repeat;
+	background-size: cover;
+	float: right;
+	margin: 2.1em 1.5em 2.1em 1em;
+}
+.control {
+	width: 14.5em;
+	height: 6em;
+	background: url(../img/paly1.fw.png) center center no-repeat;
+	background-size: cover;
+	float: left;
+	position: relative;
+}
+
+.ctr_left, .ctr_right {
+	position: absolute;
+	width: 4em;
+	height: 4em;
+}
+.ctr_left {
+	background: url(../img/btnlast.fw.png) center center no-repeat;
+	background-size: cover;
+	top: 1.1em;
+	left: 0.2em;
+}
+.ctr_right {
+	background: url(../img/btnnext.fw.png) center center no-repeat;
+	background-size: cover;
+	top: 1.1em;
+	left: 10.2em;
+}
+.ctr_center {
+	width: 5.6em;
+	height: 5.6em;
+	background: url(../img/playc.fw.png) center center no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0.2em;
+	left: 4.5em;
+}
+.voice {
+	width: 24em;
+	overflow: hidden;
+	margin: 1em auto 2em;
+	text-align: center;
+}
+.ctime, .atime {
+	display: inline-block;
+	width: 4em;
+	background-size: cover;
+	float: left;
+	line-height: 1.5em;
+}
+.voice_set {
+	width: 16em;
+	position: relative;
+	/*overflow: hidden;*/
+	float: left;
+	margin: 0.4em 0;
+}
+.surface {
+	display: inline-block;
+	width: 16em;
+	height: 1em;
+	background: #727272;
+	border-radius: 0.5em;
+}
+.cover {
+	display: inline-block;
+	width: 0em;
+	height: 1em;
+	background: #B8B9BB;
+	float: left;
+	border-radius: 0.5em;
+}
+.btn {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	background: #B8B9BB;
+	float: left;
+	border-radius: 0.5em;
+	background: url(../img/btn.fw.png) center center no-repeat;
+	background-size: cover;
+	position: relative;
+	top: -0.5em;
+	left: -0.5em;
+}
+
+/*footer*/
+.footer {
+	width: 100%;
+	height: 11%;
+	background: #2B2D31;
+	position: fixed;
+	bottom: 0;
+	z-index: 10000;
+	border-top: 1px solid #E9E9E9;
+}
+.option {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.option div {
+	width: 19%;
+	height: 100%;
+	text-align: center;
+	overflow: hidden;
+	float: left;
+}
+.option span {
+	display: inline-block;
+	width: 4em;
+	height: 4em;
+}
+.option h3 {
+	color: #AAAAAA;
+}
+.songs span {
+	background: url(../img/songs.fw.png) center center no-repeat;
+}
+.albums span {
+	background: url(../img/albums.fw.png) center center no-repeat;
+}
+.playing span {
+	background: url(../img/playingx.fw.png) center center no-repeat;
+}
+.artists span {
+	background: url(../img/artists.fw.png) center center no-repeat;
+}
+.settings span {
+	background: url(../img/settings.fw.png) center center no-repeat;
+}
+.option .active {
+	color: #C57640;
+}
+
+/*弹出框*/
+.black_overlay{  
+   	display: none;  
+   	position: absolute; 
+   	top: 0%;  
+   	left: 0%;
+  	width: 100%;  
+   	height: 100%;  
+   	background-color: black;  
+   	z-index:1001;  
+   	-moz-opacity: 0.5;  
+   	opacity:.50;  
+   	filter: alpha(opacity=50);
+   	position:fixed;
+}  
+.white_content {  
+   	display: none;  
+   	position: absolute;  
+  	top: 40%;  
+   	left: 10%;  
+   	width: 80%; 
+   	height: 20%;   
+   	border: 2px solid orange;  
+   	background-color: white;  
+   	z-index:1002;  
+   	overflow: auto;
+   	position:fixed;
+   	border-radius: 5px;
+   	text-align: center;
+   	overflow: hidden;
+   	color: red;
+}
+.white_content div {
+	float: left;
+	width: 100%;
+}
+.white_content div:first-child {
+	height: 60%;
+}
+.white_content div:first-child em {
+	padding-top: 1.5em;
+	height: 50%;
+	display: inline-block;
+}
+.white_content a span{
+	display: inline-block;
+	width: 3em;
+	height: 1.5em;
+	background:  orange;
+	border-radius: 5px;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	line-height: 1.5em;
+}

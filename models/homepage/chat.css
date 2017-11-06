@@ -1,0 +1,160 @@
+html,body,.mui-content{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	-webkit-user-select: none;
+	background-color: white;
+}
+.mui-content{
+	background-image: url(../../img/background.jpg);
+	background-size: 100% 100%;
+}
+
+.chat-list{
+	height: 100%;
+	overflow: auto;
+	-webkit-user-select: none;
+	background-color: transparent;
+	padding-bottom: 50px;
+}
+.clear-float{
+	clear: both;
+}
+.chat-box{
+	max-width: 80%;
+	/*min-height:40px;*/
+	clear: both;
+}
+.chat-box .chat-avatar{
+	height: 40px;
+	width: 40px;
+}
+.chat-content{
+	border: 1px solid grey;
+	padding: 10px;
+	border-radius: 7px;
+	max-width: 70%;
+	min-width: 35px;
+	min-height: 40px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+.chat-content .chat-content-inner{
+	word-wrap: break-word;
+}
+.chat-box-left .chat-content-arrow{
+	width: 10px;
+	height: 10px;
+	border: 1px solid grey;
+	background-color: #FFFFFF;
+	border-top: none;
+	border-right: none;
+	transform: rotateZ(45deg);
+	-webkit-transform: rotateZ(45deg);
+	position: absolute;
+	left: -6px;
+	top: 15px;
+}
+.chat-box-right .chat-content-arrow{
+	width: 10px;
+	height: 10px;
+	border: 1px solid grey;
+	background-color: #A9E55C;
+	border-bottom: none;
+	border-left: none;
+	transform: rotateZ(45deg);
+	-webkit-transform: rotateZ(45deg);
+	position: absolute;
+	right: -6px;
+	top: 16px;
+}
+
+.chat-box-left .chat-content{
+	float: left;
+	margin-left: 15px;
+}
+.chat-box-left .chat-avatar {
+	float: left;
+}
+.chat-box.chat-box-right{
+	float: right;
+}
+.chat-box.chat-box-left{
+	float: left;
+}
+.chat-box-right .chat-content{
+	float: right;
+	margin-right: 15px;
+	background-color: #a9e55c;
+}
+.chat-box-right .chat-avatar {
+	float: right;
+}
+.chat-box-time{
+	text-align: center;
+	margin: 15px 0;
+}
+.chat-time{
+	font-size: 13px;
+	background-color: grey;
+	color: #FFFFFF;
+	border-radius: 3px;
+	padding: 2px 4px;
+}
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	min-height: 50px;
+	background-color: white;
+	border-top: 1px solid #f2f1f1;
+}
+.footer-left{
+	height: 100%;
+	width: 40px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+}
+.footer-center{
+	height: 100%;
+	margin-left: 40px;
+	margin-right: 80px;
+	padding: 5px 0px;
+}
+.footer-right{
+	height: 100%;
+	width: 80px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+}
+.icon-yuyin,.icon-biaoqing,.icon-weibiaoti-_fuzhi-,.icon-jianpan{
+	font-size: 28px;
+    padding: 11px 4px;
+    text-align: center;
+}
+.input-text{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	font-size: 16px;
+	overflow: hidden;
+	line-height: 18px;
+}
+
+
+#send{
+	height: 28px;
+    padding: 0;
+    margin-top: 12px;
+    margin-left: 4px;
+    width: 90%;
+    display: none;
+}
+

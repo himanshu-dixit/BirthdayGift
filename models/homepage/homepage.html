@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../../css/app.min.css" />
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="chat.css" />
+		<script src="../../js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-icon mui-icon-person-filled mui-pull-left" id="show-btn"></a>
+			<h1 class="mui-title">舒克</h1>
+		</header>
+		<div class="mui-content">
+			<div class="chat-list">
+				<div class="chat-box-time">
+					<span class="chat-time">刚刚</span>
+				</div>
+				<div class="chat-box chat-box-left mui-content-padded">
+					<img class="chat-avatar" src="../../img/avatar.png" />
+					<div class="chat-content">
+						<div class="chat-content-inner">
+							哈哈，全世界最可爱的麻麻来找我聊天啦O(∩_∩)O
+						</div>
+						<div class="chat-content-arrow"></div>
+					</div>
+					<div class="clear-float"></div>
+				</div>
+			</div>
+			<footer>
+				<div class="footer-left">
+					<i class="mui-icon iconfont icon-yuyin"></i>
+				</div>
+				<div class="footer-center">
+					<textarea id="msg-input" class="input-text"></textarea>
+					<button type="button" id="speech" class="mui-btn mui-btn-grey mui-btn-outlined" style="display: block;width: 80%;margin: auto auto;color: grey;padding: 9px;">发送语音</button>
+				</div>
+				<div class="footer-right">
+					<i id="emotions" class="mui-icon iconfont icon-biaoqing"></i>
+					<i id="more" class="mui-icon iconfont icon-weibiaoti-_fuzhi-"></i>
+					<button id="send" type="button" class="mui-btn mui-btn-green mui-btn-block">发送</button>
+				</div>
+			</footer>
+	</body>
+	<script src="../../js/homepage.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/chat.min.js" type="text/javascript" charset="utf-8"></script>
+</html>

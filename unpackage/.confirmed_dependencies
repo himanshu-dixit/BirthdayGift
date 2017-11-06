@@ -1,0 +1,103 @@
+{
+	"models/chatpage/chat.html": {
+		"resources": [
+			"models/chatpage/chat.js",
+			"js/mui.min.js",
+			"img/avatar.png",
+			"models/chatpage/chat.css",
+			"css/app.css",
+			"img/background.jpg",
+			"css/mui.css",
+			"models/chatpage/iconfont/iconfont.css",
+			"fonts/mui.ttf",
+			"img/avatar2.jpg"
+		],
+		"refer": [
+			"models/music/music.html"
+		]
+	},
+	"models/music/music.html": {
+		"resources": [
+			"img/four.fw.png",
+			"img/two3.fw.png",
+			"css/main.css",
+			"img/paly1.fw.png",
+			"img/one.png",
+			"img/there.fw.png",
+			"models/music/music.js",
+			"img/btn.fw.png",
+			"img/playc.fw.png",
+			"css/index.css",
+			"img/btnnext.fw.png",
+			"img/modelx.fw.png",
+			"img/btnlast.fw.png",
+			"css/songs.css",
+			"img/two2.fw.png",
+			"css/mui.min.css",
+			"img/Eason.jpg",
+			"js/mui.js",
+			"img/cizhen.fw.png",
+			"img/two.fw.png",
+			"img/playcp.fw.png",
+			"fonts/mui.ttf",
+			"css/app.css",
+			"js/mui.min.js",
+			"css/app.min.css"
+		]
+	},
+	"models/homepage/menu.html": {
+		"resources": [
+			"js/mui.min.js",
+			"img/avatar.png",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/menu.min.css"
+		],
+		"refer": [
+			"models/introduction/introduction.html",
+			"models/heart/heart.html"
+		]
+	},
+	"models/homepage/homepage.html": {
+		"resources": [
+			"models/chatpage/chat.js",
+			"img/avatar.png",
+			"models/chatpage/chat.css",
+			"css/app.css",
+			"fonts/mui.ttf",
+			"img/background.jpg",
+			"css/mui.min.css",
+			"js/mui.js",
+			"models/chatpage/iconfont/iconfont.css",
+			"img/avatar2.jpg",
+			"models/homepage/iconfont/iconfont.css",
+			"models/homepage/chat.css",
+			"js/mui.min.js",
+			"models/homepage/chat.js",
+			"models/homepage/homepage.js",
+			"js/homepage.min.js",
+			"js/chat.min.js",
+			"css/app.min.css"
+		],
+		"refer": [
+			"models/homepage/menu.html",
+			"models/music/music.html"
+		]
+	},
+	"models/introduction/introduction.html": {
+		"resources": [
+			"models/introduction/introduction.css",
+			"img/man.png",
+			"js/mui.js",
+			"css/mui.css",
+			"models/introduction/introduction.js"
+		]
+	},
+	"models/heart/heart.html": {
+		"resources": [
+			"img/words.png",
+			"img/timg.jpg",
+			"img/jerry.jpg"
+		]
+	}
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<link rel="stylesheet" type="text/css" href="../../css/app.min.css" />
+		<link rel="stylesheet" href="../../css/index.css" />
+		<link rel="stylesheet" href="../../css/main.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/songs.css" />
+		<script src="../../js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<style type="text/css">
+		.rotated {
+			-webkit-animation: rot 20s linear infinite;
+		}
+		@-webkit-keyframes rot {
+			from {
+				-webkit-transform: rotateZ(0deg)
+			}
+			to {
+				-webkit-transform: rotateZ(360deg)
+			}
+		}
+	</style>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">舒克留声机</h1>
+		</header>
+		<section id="content" class="content">
+			<div class="one">
+				<div class="two_1">
+					<div class="two_2">
+						<div class="two_3">
+							<div class="there">
+								<div class="four" style="border-radius: 50%;">
+									<img class="music_img" src="../../img/Eason.jpg" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="magnetic_needle"></div>
+			<div class="music_info" data-flag=0>
+				<h2 id="musicTitle">让我留在你身边</h2>
+				<h4>陈奕迅</h4>
+			</div>
+			<div class="paly_control">
+				<div class="model"></div>
+				<div class="control">
+					<div class="ctr_left" id="playPer"></div>
+					<div class="ctr_center" id="playPause" data-flg="pause" data-music="0"></div>
+					<div class="ctr_right" id="playNext"></div>
+				</div>
+				<button type="button" id="MV" class="mui-btn mui-btn-blue mui-btn-outlined" style="margin-top: 1.5em;">MV</button>
+			</div>
+			<div class="voice">
+				<span class="ctime">--:--</span>
+				<div class="voice_set">
+					<span class="surface">
+						<b class="cover">
+							<span id="div1" class="btn"></span>
+					</b>
+					</span>
+				</div>
+				<span class="atime">--:--</span>
+			</div>
+		</section>
+		<audio id="audio" style="display:none" controls="controls" src="http://ac-iiyq8wju.clouddn.com/a925aa3979ea1adaba48.mp3"></audio>
+	</body>
+	<script src="music.js" type="text/javascript" charset="utf-8"></script>
+
+</html>
